@@ -1,3 +1,4 @@
+
 require_relative 'boot'
 
 require 'rails/all'
@@ -8,6 +9,7 @@ Bundler.require(*Rails.groups)
 
 module Noudone
   class Application < Rails::Application
+    config.api_only = true
     config.generators do |generate|
           generate.assets false
           generate.helper false
