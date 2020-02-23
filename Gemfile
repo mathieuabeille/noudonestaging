@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.6.5'
+ruby '2.6.0'
 
 gem 'jbuilder', '~> 2.0'
 gem 'pg'
@@ -14,8 +14,6 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
-gem 'railties'
-gem 'thor'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
