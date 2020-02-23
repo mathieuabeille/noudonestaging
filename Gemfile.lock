@@ -84,7 +84,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
-    pg (0.21.0)
+    pg (1.2.2)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -188,19 +188,17 @@ DEPENDENCIES
   puma
   pundit
   rails (= 5.2.4.1)
-  railties
   redis
   sassc-rails
   simple_form
   spring
   spring-watcher-listen (~> 2.0.0)
-  thor
   uglifier
   web-console (>= 3.3.0)
   webpacker
 
 RUBY VERSION
-   ruby 2.6.5p114
+   ruby 2.6.0p0
 
 BUNDLED WITH
    2.1.4
