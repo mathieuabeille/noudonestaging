@@ -3,7 +3,7 @@ ruby '2.6.3'
 
 gem 'bootsnap', require: false
 gem 'jbuilder', '~> 2.0'
-gem 'pg', '~> 0.21'
+gem 'pg'
 gem 'puma'
 gem 'rails', '5.2.4.1'
 gem 'redis'
