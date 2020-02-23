@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.6.3'
+ruby '2.6.5'
 
 gem 'jbuilder', '~> 2.0'
 gem 'pg'
