@@ -188,11 +188,13 @@ DEPENDENCIES
   puma
   pundit
   rails (= 5.2.4.1)
+  railties
   redis
   sassc-rails
   simple_form
   spring
   spring-watcher-listen (~> 2.0.0)
+  thor
   uglifier
   web-console (>= 3.3.0)
   webpacker
